@@ -11,7 +11,7 @@ from loyan.core.decorators import on_command, on_regex, plugin_handler, PluginCo
 from loyan.core.decorators.registration import on_fallback as _on_fallback
 from graci import LoyanImage
 
-_logger = logging.getLogger("Gracy.表情包")
+_logger = logging.getLogger("Loyan.表情包")
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATES_DIR = os.path.join(DATA_DIR, "templates")
