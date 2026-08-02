@@ -2,7 +2,10 @@
 name        = "表情包生成"
 version     = "2.0.0"
 author      = "Vway-yw"
+priority    = 50
 icon        = "https://avatars.githubusercontent.com/u/307078813?v=4"
+dependencies = []
+
 description = "互动表情包生成 - 支持自定义文字和模板"
 
 category    = "Entertainment"
@@ -19,5 +22,5 @@ commands       = ["/生成表情"]
 chat_type      = ["private", "group"]
 permission     = "all"
 is_at_required = false
-priority       = 50
+
 command_descriptions = {"/生成表情 <关键词> [QQ号]" = "用关键词生成表情包(指定QQ号或用自己的)", "/表情" = "表情包帮助 list/setpos/preview/scale/debug/setframe/framepreview/clearframe", "/表情 list" = "查看所有关键词", "/表情 setpos <关键词> <方向+数字>" = "微调位置(左移/右移/上移/下移/放大/缩小)", "/表情 preview <关键词>" = "预览头像框位置", "/表情 scale <关键词> <比例>" = "缩放头像大小(0.1~2.0)", "/表情 debug <关键词> [QQ号]" = "调试-直接生成成品确认效果", "/表情 setframe <关键词> <帧号> <x,y>" = "调试-设置动图指定帧位置", "/表情 framepreview <关键词> [帧号]" = "调试-预览动图某帧/查看全部帧位置", "/表情 clearframe <关键词>" = "调试-清除动图逐帧位置回退默认", "/表情关键词 list" = "查看关键词列表", "/表情关键词 add <关键词> <模板> [x,y,w,h]" = "添加关键词模板", "/表情关键词 del <关键词>" = "删除关键词", "/表情帮助" = "显示表情包帮助"}
