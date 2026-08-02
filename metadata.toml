@@ -2,8 +2,9 @@
 name        = "表情包生成"
 version     = "2.0.0"
 author      = "Vway-yw"
+icon        = "https://avatars.githubusercontent.com/u/307078813?v=4"
 description = "互动表情包生成 - 支持自定义文字和模板"
- "https://raw.githubusercontent.com/Vway-yw/loyan-sticker/main/icon.svg"
+
 category    = "Entertainment"
 tags        = ['表情包', '自定义']
 repo        = "Vway-yw/loyan-sticker"
