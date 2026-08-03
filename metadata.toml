@@ -1,19 +1,16 @@
 [plugin]
-name        = "表情包生成"
-version     = "2.0.0"
-author      = "Vway-yw"
-priority    = 50
-icon        = "https://avatars.githubusercontent.com/u/307078813?v=4"
-dependencies = []
-
-description = "互动表情包生成 - 支持自定义文字和模板"
-
-category    = "Entertainment"
-tags        = ['表情包', '自定义']
-repo        = "Vway-yw/loyan-plugins"
-docs_url    = "https://github.com/Vway-yw/loyan-plugins"
-min_framework = "0.1.0"
-
+name           = "表情包生成"
+version        = "2.0.0"
+author         = "Vway-yw"
+description    = "互动表情包生成 - 支持自定义文字和模板"
+priority       = 50
+icon           = "https://avatars.githubusercontent.com/u/307078813?v=4"
+dependencies   = []
+category       = "Entertainment"
+tags           = ['表情包', '自定义']
+repo           = "Vway-yw/loyan-plugins"
+docs_url       = "https://github.com/Vway-yw/loyan-plugins"
+min_framework  = "0.1.0"
 [handler]
 entry       = "handle_dispatch"
 
